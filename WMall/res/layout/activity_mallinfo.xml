@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:layout_gravity="center"
+	android:gravity="center_vertical"
+	android:paddingLeft="25dp"
+	android:paddingRight="25dp"
+	>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="@string/testtxt_name"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:id="@+id/txtnegNombre"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="@string/testtxt_address"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:id="@+id/txtnegDireccion"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="@string/testtxt_phone"
+		android:layout_width="wrap_content"
+		android:id="@+id/txtnegTelefono"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="@string/testtxt_schedule"
+		android:layout_width="wrap_content"
+		android:id="@+id/txtnegHorario"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="@string/testtxt_website"
+		android:layout_width="wrap_content"
+		android:id="@+id/txtnegWebsite"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="@string/testtxt_email"
+		android:layout_width="wrap_content"
+		android:id="@+id/txtnegEmail"/>
+
+	<Button
+	    android:id="@+id/btnCall"
+	    style="@style/AppBaseTheme"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="bottom|center_horizontal"
+	    android:layout_marginTop="@dimen/activity_top_separated"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:text="@string/btntxt_call" />
+	
+</LinearLayout>
+

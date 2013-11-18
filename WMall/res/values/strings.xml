@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WMall</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="testtxt_name">Nombre</string>
+    <string name="testtxt_address">Direccion</string>
+    <string name="testtxt_phone">Telefono</string>
+    <string name="testtxt_schedule">09:00 a 18:00 hrs.</string>
+    <string name="testtxt_website">http://www.nombre.com</string>
+    <string name="testtxt_email">info@nombre.com</string>
+    <string name="btntxt_call">Llamar</string>
+    <string name="title_activity_photo_detail">Detalle de foto</string>
+    <string name="photoDesc">Foto</string>
+    <string name="imgbtnDesc">Boton</string>
+    <string name="btnText">Agregar</string>
+    <string name="btnDetalleFoto">Ver detalle foto</string>    
+</resources>
