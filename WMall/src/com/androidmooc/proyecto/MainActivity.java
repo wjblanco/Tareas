@@ -24,9 +24,9 @@ public class MainActivity extends Activity {
 		final ListView lstView = (ListView) findViewById(R.id.MallList);
 		//String[] strMallList = {"Uno","Dos","Tres"};
 		Negocio[] negMallList = {
-			new Negocio(1, "Tienda de zapatos", "Local 1", "22334455", "09:00 a 18:00", "www.calzadoroy.com", "info@calzadoroy.com"),
-			new Negocio(2, "Tienda de ropa", "Local 2", "22335566", "09:00 a 18:00", "www.megapaca.com.gt", "info@megapaca.com.gt"),
-			new Negocio(3, "Tienda de juguetes", "Local 2", "22335566", "09:00 a 18:00", "www.megapaca.com.gt", "info@megapaca.com.gt")
+			new Negocio(1, "Payless Shoe Source", "Local 1", "24402567", "09:00 a 19:00 hrs.", "http://www.paylessguatemala.com/", "contacto@paylessguatemala.com"),
+			new Negocio(2, "Bershka", "Local 2", "22335566", "09:00 a 18:00 hrs.", "http://www.bershka.com/webapp/wcs/stores/servlet/home/bershkagt/es/40109502", "info@bershka.com"),
+			new Negocio(3, "Cemaco", "Local 3", "24214141", "09:00 a 20:00 hrs.", "http://www.jugueton.com/main.asp", "sus.amigos@cemaco.com")
 		};
 		
 		Button btnPhotoView = (Button) findViewById(R.id.btnPhotoView);
